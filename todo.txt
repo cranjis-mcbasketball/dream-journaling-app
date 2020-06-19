@@ -1,0 +1,9 @@
+1. set up mvc framework
+  - server, routers, controllers
+2. set up react routes
+3. set up cassandra
+  - looked into install and recorded methods used in 'commands' section of notes
+  - find out how to write a seed script with shell commands so that table names do not have quotes.
+    - how do I auto-increment ID? Do I need to include ID in the INSERT script if it auto-increments? etc
+4. set up authentication
+5.
