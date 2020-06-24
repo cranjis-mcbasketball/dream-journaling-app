@@ -19,7 +19,7 @@ var models = ExpressCassandra.createClient({
 
 var EntryModel = models.loadSchema('dreamentries', {
   fields: {
-    id: 'counter',
+    id: 'int',
     // will be determined based on who is signed in; defaults to 'anonymous-user'
     username: 'text',
     // string in format yyyy-mm-dd
